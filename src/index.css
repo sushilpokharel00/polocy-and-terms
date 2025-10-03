@@ -1,0 +1,60 @@
+@import './styles/tailwind.css';
+
+/* You can add global styles or overrides here */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Global custom selection color */
+::selection {
+  background: rgba(79, 70, 229, 0.15); /* indigo-600 @ 15% */
+  color: inherit;
+}
+
+/* Prevent accidental text selection on interactive nav/sidebar */
+.no-select, .no-select * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Container polish */
+.main-container {
+  max-width: 48rem; /* 768px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-bar {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 8px rgba(16,24,40,0.06);
+}
+
+:root {
+  --brand: #4F46E5; /* indigo-600 */
+  --brand-600: #4F46E5;
+  --muted: #6B7280;
+  --bg: #ffffff;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--brand-600);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 20px rgba(79,70,229,0.12);
+}
+.btn-primary:hover { background: #4338CA }
+
+.card { background: var(--bg); border-radius: 0.75rem; box-shadow: 0 6px 20px rgba(2,6,23,0.06); }
+
+/* Professional typography tweaks */
+h1,h2,h3 { color: #0F172A }
+p, li { color: #374151 }
