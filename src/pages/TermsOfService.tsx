@@ -1,11 +1,10 @@
-import React from 'react';
 
 function TermsOfService() {
     return (
         <div className="bg-white shadow rounded-lg p-8">
             <h1 className="text-3xl font-bold mb-4">Terms of Service</h1>
 
-            <p className="text-sm text-gray-600 mb-6">Effective date: {new Date().toLocaleDateString()}</p>
+            <p className="text-sm text-gray-600 mb-6">Effective date: November 1, 2025</p>
 
             <section className="mb-6">
                 <h2 className="text-xl font-semibold mb-2">1. Introduction</h2>
@@ -34,6 +33,16 @@ function TermsOfService() {
             <section className="mb-6">
                 <h2 className="text-xl font-semibold mb-2">5. Changes to Terms</h2>
                 <p className="text-gray-700 leading-relaxed">We may update these Terms from time to time. We will post the revised Terms on the website with the effective date. Continued use of the Service after changes indicates acceptance of the updated Terms.</p>
+            </section>
+
+            <section className="mb-6">
+                <h2 className="text-xl font-semibold mb-2">What changed — November 2025</h2>
+                <ul className="list-disc pl-5 text-gray-700 leading-relaxed space-y-2">
+                    <li>Updated effective date to November 1, 2025.</li>
+                    <li>Clarified payment terms and limitations in section 4.</li>
+                    <li>Aligned privacy references with the updated Privacy Policy.</li>
+                    <li>Minor wording clarifications and formatting fixes across the document.</li>
+                </ul>
             </section>
 
             <section className="mb-6">
