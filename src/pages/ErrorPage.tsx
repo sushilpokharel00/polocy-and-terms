@@ -42,9 +42,9 @@ export default function ErrorPage() {
         </header>
 
         <main className="flex-1">
-          <h1 className="text-3xl font-bold mb-2">404 - Page not found</h1>
-          <p className="text-gray-600 mb-4">Sorry, we can't find the page you're looking for. It might have been moved or removed.</p>
-          <p className="text-sm text-gray-500 mb-6">You'll be redirected to the home page in <strong>{count}s</strong>. Or use one of the quick links below.</p>
+          <h1 className="text-3xl font-bold mb-2">404 — Page Not Found</h1>
+          <p className="text-gray-600 mb-4">We couldn't find the page you requested. It may have been moved, renamed, or removed.</p>
+          <p className="text-sm text-gray-500 mb-6">You'll be redirected to the homepage in <strong>{count}s</strong>. Alternatively, use one of the quick links below.</p>
           <div className="flex flex-wrap justify-center gap-3">
             <a href="/" className="px-4 py-2 border border-gray-200 rounded-md hover:bg-gray-50">Go home</a>
             <a href="/#terms" className="px-4 py-2 border border-gray-200 rounded-md hover:bg-gray-50">Terms</a>

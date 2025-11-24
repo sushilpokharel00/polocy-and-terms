@@ -31,7 +31,7 @@ function Home() {
         <div>
             <header className="text-center mb-8">
                 <h1 className="text-3xl md:text-4xl font-bold flex items-center justify-center gap-2">📜 Terms of Service & Privacy Policy</h1>
-                <p className="text-sm text-gray-500 mt-2">Last updated: {new Date(localStorage.getItem('lastPolicyUpdate') || new Date()).toLocaleDateString()}</p>
+                <p className="text-sm text-gray-500 mt-2">Last updated: {new Date(localStorage.getItem('lastPolicyUpdate') || new Date('2025-11-17')).toLocaleDateString()}</p>
                 <NextUpdateTimer days={30} />
             </header>
 

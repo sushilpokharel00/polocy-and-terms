@@ -1,60 +1,51 @@
 
+import React from 'react';
+import Layout from '../components/Layout';
+
 function TermsOfService() {
     return (
-        <div className="bg-white shadow rounded-lg p-8">
-            <h1 className="text-3xl font-bold mb-4">Terms of Service</h1>
+        <Layout>
+            <div className="bg-white shadow rounded-lg p-8">
+                <h1 className="text-3xl font-bold mb-4">Terms of Service</h1>
 
-            <p className="text-sm text-gray-600 mb-6">Effective date: November 1, 2025</p>
+                <p className="text-sm text-gray-600 mb-6">Effective date: November 17, 2025</p>
 
-            <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">1. Introduction</h2>
-                <p className="text-gray-700 leading-relaxed">These Terms of Service govern your use of services and websites provided by Sushil Pokharel ("we", "our", "us"). By accessing or using our services, you agree to be bound by these terms. If you do not agree, please do not use the services.</p>
-            </section>
+                <section className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2">1. Agreement</h2>
+                    <p className="text-gray-700 leading-relaxed">These Terms of Service ("Terms") govern your access to and use of the website and services provided by Sushil Pokharel ("we", "us", "our"). By accessing or using our services, you agree to these Terms. If you do not agree, please discontinue use.</p>
+                </section>
 
-            <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">2. Use of the Service</h2>
-                <ul className="list-disc pl-5 text-gray-700 leading-relaxed space-y-2">
-                    <li>You must follow all applicable laws and not use the services for unlawful or fraudulent purposes.</li>
-                    <li>Do not interfere with the operation of the services or attempt to access parts of the service you are not authorized to use.</li>
-                    <li>We may suspend or terminate access at our discretion for violations of these terms.</li>
-                </ul>
-            </section>
+                <section className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2">2. Permitted Use</h2>
+                    <p className="text-gray-700 leading-relaxed">You agree to use the services lawfully and not to engage in activity that harms the service, other users, or third parties. Prohibited conduct includes unauthorized access, distribution of malicious software, harassment, and interference with normal operation.</p>
+                </section>
 
-            <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">3. Intellectual Property</h2>
-                <p className="text-gray-700 leading-relaxed">All content and materials provided by the Service are the property of Sushil Pokharel or its licensors and are protected by copyright, trademark, and other intellectual property laws. You may not copy, reproduce, or distribute any content without express permission.</p>
-            </section>
+                <section className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2">3. Intellectual Property</h2>
+                    <p className="text-gray-700 leading-relaxed">All content and materials on the site are owned by or licensed to us and are protected by intellectual property laws. You may not copy, reproduce, distribute, or create derivative works without our prior written permission.</p>
+                </section>
 
-            <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">4. Disclaimers and Limitation of Liability</h2>
-                <p className="text-gray-700 leading-relaxed">The Service is provided "as is" without warranties of any kind. To the fullest extent permitted by law, we disclaim all warranties and will not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the Service.</p>
-            </section>
+                <section className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2">4. Disclaimers & Limitation of Liability</h2>
+                    <p className="text-gray-700 leading-relaxed">The services are provided "as is". To the extent permitted by law, we disclaim all warranties and limit liability for damages arising out of or related to your use of the services. Where exclusions are not permitted by applicable law, liability is limited to the maximum extent permitted.</p>
+                </section>
 
-            <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">5. Changes to Terms</h2>
-                <p className="text-gray-700 leading-relaxed">We may update these Terms from time to time. We will post the revised Terms on the website with the effective date. Continued use of the Service after changes indicates acceptance of the updated Terms.</p>
-            </section>
+                <section className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2">5. Changes to These Terms</h2>
+                    <p className="text-gray-700 leading-relaxed">We may update these Terms periodically. Material changes will be posted with a new effective date. Continued use after a change constitutes acceptance of the updated Terms.</p>
+                </section>
 
-            <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">What changed — November 2025</h2>
-                <ul className="list-disc pl-5 text-gray-700 leading-relaxed space-y-2">
-                    <li>Updated effective date to November 1, 2025.</li>
-                    <li>Clarified payment terms and limitations in section 4.</li>
-                    <li>Aligned privacy references with the updated Privacy Policy.</li>
-                    <li>Minor wording clarifications and formatting fixes across the document.</li>
-                </ul>
-            </section>
+                <section className="mb-6">
+                    <h2 className="text-xl font-semibold mb-2">6. Governing Law</h2>
+                    <p className="text-gray-700 leading-relaxed">These Terms are governed by the laws applicable to our operations. For specific legal questions, seek independent legal advice in your jurisdiction.</p>
+                </section>
 
-            <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">6. Governing Law</h2>
-                <p className="text-gray-700 leading-relaxed">These Terms shall be governed by the laws of the jurisdiction in which Sushil Pokharel operates, without regard to conflict of law principles.</p>
-            </section>
-
-            <section>
-                <h2 className="text-xl font-semibold mb-2">7. Contact</h2>
-                <p className="text-gray-700 leading-relaxed">If you have any questions about these Terms, please contact us at <a href="mailto:support@sushilpokharel00.com.np" className="underline text-indigo-600">support@sushilpokharel00.com.np</a>.</p>
-            </section>
-        </div>
+                <section>
+                    <h2 className="text-xl font-semibold mb-2">7. Contact</h2>
+                    <p className="text-gray-700 leading-relaxed">If you have questions about these Terms, contact us at <a href="mailto:support@sushilpokharel00.com.np" className="underline text-indigo-600">support@sushilpokharel00.com.np</a>.</p>
+                </section>
+            </div>
+        </Layout>
     );
 }
 
